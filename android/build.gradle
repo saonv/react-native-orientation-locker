@@ -7,7 +7,7 @@ def safeExtGet(prop, fallback) {
 android {
     compileSdkVersion safeExtGet('compileSdkVersion', 27)
     buildToolsVersion safeExtGet('buildToolsVersion', '27.0.3')
-
+    namespace "org.wonday.orientation"
     defaultConfig {
         minSdkVersion safeExtGet('minSdkVersion', 16)
         targetSdkVersion safeExtGet('targetSdkVersion', 26)
